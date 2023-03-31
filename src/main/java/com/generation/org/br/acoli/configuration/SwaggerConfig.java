@@ -25,7 +25,12 @@ public class SwaggerConfig {
 						.name("Acoli")
 						.url("http://brazil.generation.org/"))
 				.contact(new Contact()
-						.name("Liliam Oliveira")
+						.name("Crislania Soares\r\n"
+								+ "Guilherme de Aquino\r\n"
+								+ "Liliam da Silva Oliveira\r\n"
+								+ "Marco Antônio Lima\r\n"
+								+ "Marcos Vinicius\r\n"
+								+ "Mayara Amorim Moreira\r\n")
 						.url("https://github.com/Lihsolive")
 						.email("liliamsoliver@gmail.com")))
 				.externalDocs(new ExternalDocumentation().description("Github")
