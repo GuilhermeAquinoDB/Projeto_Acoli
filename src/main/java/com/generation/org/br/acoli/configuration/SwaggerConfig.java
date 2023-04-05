@@ -19,22 +19,18 @@ public class SwaggerConfig {
 	public OpenAPI springblogPessoalOpenAPI() {
 		return new OpenAPI().info(new Info()
 				.title("Projeto Acoli")
-				.description( "Criação de uma rede social que conecta doadores (empresas, pessoas físicas) a pessoas carentes em situação de miséria, usando como base a ODS 2 – Erradicação da Fome.")
+				.description("Criação de uma rede social que conecta doadores (empresas, pessoas físicas) a pessoas carentes em situação de miséria, usando como base a ODS 2 – Erradicação da Fome.")
 				.version("v0.01")
 				.license(new License()
 						.name("Acoli")
 						.url("http://brazil.generation.org/"))
 				.contact(new Contact()
-						.name("Crislania Soares\r\n"
-								+ "Guilherme de Aquino\r\n"
-								+ "Liliam da Silva Oliveira\r\n"
-								+ "Marco Antônio Lima\r\n"
-								+ "Marcos Vinicius\r\n"
-								+ "Mayara Amorim Moreira\r\n")
-						.url("https://github.com/Lihsolive")
+						.name("\nCrislania Soares,\nGuilherme de Aquino,\nLiliam da Silva Oliveira,\nMarco Antônio Lima,\nMarcos Vinicius,\nMayara Amorim Moreira\n")
+						.url("https://github.com/g5Project")
 						.email("liliamsoliver@gmail.com")))
-				.externalDocs(new ExternalDocumentation().description("Github")
-						.url("https://github.com/MarcosVxny/projeto_acoli"));
+				.externalDocs(new ExternalDocumentation()
+						.description("Github")
+						.url("https://github.com/g5Project/projeto_acoli"));
 	}
 
 	@Bean
