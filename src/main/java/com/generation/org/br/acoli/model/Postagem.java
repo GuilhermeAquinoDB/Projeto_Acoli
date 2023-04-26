@@ -27,6 +27,10 @@ public class Postagem {
 	private LocalDateTime data;
 	
 	@NotBlank
+	@Size(min = 3, max = 255 )
+	private String titulo;
+	
+	@NotBlank
 	@Size(min = 5 , max = 255 )
 	private String descricao;
 	
@@ -88,6 +92,14 @@ public class Postagem {
 	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
 	}
+	
+	public String getTitulo() {
+        return titulo;
+    	}
+
+    	public void setTitulo(String titulo) {
+        this.titulo = titulo;
+   	 }
 	
 	
 }
